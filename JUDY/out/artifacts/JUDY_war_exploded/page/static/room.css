@@ -1,0 +1,240 @@
+body{
+    margin: 0;
+    padding:0;
+}
+#main{
+}
+/*
+head部分
+*/
+#head{
+    height: 100px;
+    background-color:#302D2D;
+}
+.left_logo{
+    width: 150px;
+    height: 100px;
+    float: left;
+    position: relative;
+    left:100px;
+}
+.logo_title{
+    width: 140px;
+    height: 80px;
+    position: relative;
+    top: 10px;
+}
+.logo_title a{
+    color: white;
+    text-decoration: none;
+}
+.logo_title_word{
+    font-size: 40px;
+    font-family: Simsun;
+    letter-spacing: 20px;
+    position: relative;
+    top: 15px;
+}
+/*
+right_menu部分
+*/
+.right_menu{
+    width: 620px;
+    height: 100px;
+    float: right;
+    position: relative;
+    right: 100px;
+}
+.right_menu a{
+    font-family: serif;
+    font-size: 15px;
+    letter-spacing: 5px;
+    color:#919685;
+    text-decoration:none;
+}
+.right_menu div{
+    position: relative;
+    top: 50px;
+}
+.menu_mainpage{
+    width: 80px;
+    height: 20px;
+    position: relative;
+    left:100px;
+    float: left;
+}
+.menu_abouthotel{
+    width: 80px;
+    height: 20px;
+    position: relative;
+    left:150px;
+    float: left;
+}
+.menu_phonenubmer{
+    width: 218.5px;
+    height: 20px;
+    position: relative;
+    left:200px;
+    float: left;
+}
+/*
+body
+*/
+#body{
+    background-color:#F8F8F8;
+}
+/*
+img_hotel piuture
+*/
+.img_hotel{
+    height: 530px;
+}
+/*
+room check room count
+*/
+.body_room{
+    width: 853px;
+    height: 340px;
+    background-color:blue;
+    margin: 0 auto;
+}
+/*
+room_check
+*/
+.room_check{
+    width: 853px;
+    height: 340px;
+    float: left;
+}
+.room_check_detail{
+    width: 853px;
+    height: 320px;
+    background-color:white;
+}
+/*
+ detail_left
+*/
+.check_detail_left{
+    width: 273px;
+    height: 300px;
+    float: left;
+}
+.detail_left_picture{
+    width: 273px;
+    height: 170px;
+    position: relative;
+    top: 5px;
+}
+/*
+detail_right
+*/
+.check_detail_right{
+    width: 580px;
+    height: 300px;
+    float: left;
+}
+.detail_right_head{
+    height: 120px;
+    font-family: serif;
+}
+.detail_right_head span{
+    font-size: 27px;
+    letter-spacing: 3px;
+}
+.detail_right_head_big{
+    height: 26px;
+}
+.detail_right_head_big span{
+    font-size: 10px;
+    font-family: Simsun;
+    color:#918271;
+}
+.detail_right_head_roomdetail{
+    height: 67px;
+}
+.detail_right_head_roomdetail span{
+    font-size: 18px;
+    color: #253c4b;
+    position: relative;
+    top: 11px;
+}
+.detail_right_body{
+    height: 20px;
+}
+/*
+foot
+*/
+.detail_right_foot{
+    height: 135px;
+    position: relative;
+}
+.detail_right_foot hr{
+    position: relative;
+    top: 24px;
+}
+.detail_right_foot_money{
+    font-family: Simsun;
+    position: relative;
+    top: 50px;
+}
+.detail_right_foot_money span{
+    font-size: 20px;
+}
+.right_foot_money_count{
+    float: right;
+    width: 125px;
+    height: 45px;
+    font-family: Simsun;
+    background-color:#9F8769;
+    letter-spacing: 10px;
+    border:0;
+}
+.count_border_css{
+    background-color:#C6C6C6;
+}
+.room_count{
+    width: 426px;
+    height: 660px;
+    background-color:pink;
+    float: left;
+}
+/*
+room_check_foot_background
+*/
+.room_check_foot_background{
+    width: 853px;
+    height: 20px;
+    background-color:#F8F8F8;
+}
+/*
+foot部分
+*/
+#foot{
+    height: 230px;
+    font-family: serif;
+}
+.foot_title a{
+    color:#FFFAFA;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: Simsun;
+}
+.foot_title{
+    height: 150px;
+    text-indent: 10%;
+    background-color: #444444;
+}
+.foot_email{
+    color:#C0C0C0;
+    text-indent: 10%;
+    height: 80px;
+    background-color:#333333;
+}
+.email_content{
+    position: relative;
+    top: 20px;
+}
+.title_logo{
+    position: relative;
+    top: 40px;
+}

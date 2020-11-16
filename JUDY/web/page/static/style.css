@@ -1,0 +1,249 @@
+/*
+对网页主要组成的div进行css样式设计
+*/
+body{
+	margin: 0;
+	padding:0;
+}
+#main{
+
+}
+/*
+head部分
+*/
+#head{
+	margin: 0;
+	padding:0;
+	font-family: Simsun;
+
+}
+a:link{
+	text-decoration: none;
+}
+.menu a:hover{
+	/*
+	对ul中的下划线进行设置
+	*/
+	color: 	#DCDCDC;
+	/*text-decoration: underline;*/
+	border-bottom: 2px solid #C0C0C0;
+	padding-bottom: 5px;
+}
+a.logo_word:hover{
+	color: 	#FFFAFA;
+	text-decoration: none;
+}
+.logo{
+	padding-top: 15px;
+	height: 130px;
+	text-align: center;
+	background-color:#484545;
+}
+.logo_word{
+	letter-spacing: 10px;
+	font-size: 40px;
+	font-family: Simsun;
+	text-decoration: none;
+	color:	#FFFAFA;
+}
+.welcome_word{
+	font-color:#C0C0C0;
+	font-family: Simsun;
+}
+/*
+菜单栏部分
+*/
+.menu a{
+	color:#C0C0C0;
+	/*font-family: serif;*/
+}
+ul.menu{
+	list-style-type: none;
+}
+li{
+	display: inline;	
+}
+.menu{
+	padding-top: 10px;
+	text-align: left;
+	text-indent: 30%;
+	letter-spacing: 3px;
+	word-spacing: 40px;
+}
+/*
+	li后的图片
+*/
+.photo{
+	height: 514px;
+	/*font-family: serif;*/
+}
+/*
+time部分
+*/
+.time{
+	height: 200px;
+	background-color:white;
+	font-family: serif;
+}
+.booking{
+	height: 120px;
+	width: 1152px;
+	margin:0 auto;
+	padding-top: 40px;
+	padding-top:12.8px;
+}
+.booking_title{
+	height: 30px;
+	letter-spacing: 5px;
+}
+.booking_form{
+	padding-top: 20px;
+}
+.booking_form_time{
+	height: 90px;
+}
+.form_select{
+
+}
+.form_select label{
+	color:#655555;
+}
+[type~=date]{
+	border: 0px;
+	border-bottom: 1px solid black;
+	padding-bottom: 2px;
+}
+.select_location{
+	border-bottom: 1px solid black;
+	height: 22px;
+}
+.location_button{
+	border:1px;
+	color: white;
+	background-color:black;
+}
+.submit_color2{
+	background-color:#C0C0C0;
+}
+.form_select_location{
+	width: 32%;
+	float: left;
+}
+.form_select_start{
+	width: 17%;
+	padding-left: 50px;
+	float: left;
+}
+.form_select_end{
+	width: 17%;
+	padding-left: 50px;
+	float: left;
+}
+/*
+submit  form
+*/
+.select_submit{
+	color: white;
+	background-color:black;
+	width: 17%;
+	height: 45px;
+	letter-spacing: 10px;
+	font-family:Simsun;
+	border:0px;
+}
+.submit_color1{
+	background-color:#B0E0E6;
+}
+/*
+body部分
+*/
+#body{
+	background-color:#FFFFFF;
+}
+/*
+视频播放
+*/
+.video_source{
+	position: relative;
+	top: 30px;
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+}
+/*
+酒店介绍
+*/
+.body_picture_content{
+	font-family:sans-serif;
+}
+.content_title{
+	height: 50px;
+	width: 300px;
+	text-align:center;
+	letter-spacing: 3px;
+	margin: 0 auto;
+	font-family:Simsun ;
+	color: 	#444444;
+}
+.content_detail{
+	height: 80px;
+	width: 500px;
+	margin: 0 auto;
+	text-align:center;
+	line-height: 30px;
+	letter-spacing: 3px;
+	font-family: sans-serif;
+	color:#355572 ;
+}
+/*
+关于酒店的介绍
+*/
+.about_hotel_title{
+	width: 890px;
+	font-family: Simsun;
+	margin: 0 auto;
+	text-align:center;
+	color: 	#444444;
+}
+.about_hotel_text{
+	width: 890px;
+	height: 350px;
+	margin: 0 auto;
+	line-height: 30px;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	text-align:center;
+	font-family: sans-serif;
+	color:#355572;
+}
+/*
+foot部分
+*/
+#foot{
+	height: 230px;
+	font-family: serif;
+}
+.foot_title a{
+	color:#FFFAFA;
+	font-size: 40px;
+	font-family: Simsun;
+}
+.foot_title{
+	height: 150px;
+	text-indent: 10%;
+	background-color: #484545;
+}
+.foot_email{
+	color:#C0C0C0;
+	text-indent: 10%;
+	height: 80px;
+	background-color:#656060;
+}
+.email_content{
+	position: relative;
+	top: 20px;
+}
+.title_logo{
+	position: relative;
+	top: 40px;
+}

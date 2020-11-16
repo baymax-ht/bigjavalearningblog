@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+head部分
+*/
+#head{
+    height: 100px;
+    background-color:#302D2D;
+}
+.left_logo{
+    width: 150px;
+    height: 100px;
+    float: left;
+    position: relative;
+    left:100px;
+}
+.logo_title{
+    width: 140px;
+    height: 80px;
+    position: relative;
+    top: 10px;
+}
+.logo_title a{
+    color: white;
+    text-decoration: none;
+}
+.logo_title_word{
+    font-size: 40px;
+    font-family: Simsun;
+    letter-spacing: 20px;
+    position: relative;
+    top: 15px;
+}
+/*
+body部分
+*/
+#body{
+    height: 500px;
+    background-color:#F8F8F8;
+}
+/*
+table布局
+*/
+.body_table{
+    width: 70%;
+    height: 480px;
+    background-color:white;
+    float: left;
+    position: relative;
+    left:15%;
+    top: 10px;
+    border:1px black solid;
+    overflow: auto;
+}
+/*
+分页布局
+*/
+#pn_input{
+    width:50px;
+}
+/*
+foot部分
+*/
+#foot{
+    height: 230px;
+    font-family: serif;
+}
+.foot_title a{
+    color:#FFFAFA;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: Simsun;
+}
+.foot_title{
+    height: 150px;
+    text-indent: 10%;
+    background-color: #444444;
+}
+.foot_email{
+    color:#C0C0C0;
+    text-indent: 10%;
+    height: 80px;
+    background-color:#333333;
+}
+.email_content{
+    position: relative;
+    top: 20px;
+}
+.title_logo{
+    position: relative;
+    top: 40px;
+}
